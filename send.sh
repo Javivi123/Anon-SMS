@@ -82,7 +82,7 @@ function SENDSMS() {
    read SMS
 
 
-   SMSRESULT=$(curl -# -X POST https://textbelt.com/text --data-urlencode phone="$PHONE" --data-urlencode message="$SMS" -d key=textbelt)
+   SMSRESULT=$(curl -# -X POST https://textbelt.com/text --data-urlencode phone="$PHONE" --data-urlencode message="$SMS" -d key=f5f510cd0a932bfce98ad53a3ddbf2dcbf114629Cb0aVs0bgZzEnnIH4bDX8TWJe)
    
    if grep -q true <<<"$SMSRESULT"
    
